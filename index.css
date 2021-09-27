@@ -1,0 +1,79 @@
+/*Make the navbar slide to their targets, instead of jumping. */
+html {
+    scroll-behavior: smooth;
+}
+/*color the background and add some space to the sides of the main column. */
+.container-fluid {
+   background-color: #F8B003;
+   padding-left: 10% !important;
+   padding-right: 10% !important;
+}
+/*Add padding and background image to home section.*/
+#home {
+    padding: 20%;
+    background-image: url("media/redcircuits.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.header {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-shadow: 0 2px 8px rgba(17,17,17,0.6);
+}
+/*Color the main column background white. */
+.col {
+    background-color: white;
+}
+.col.main{
+    background-color: white;
+    box-shadow: 0 0 50px rgba(17,17,17,0.5);
+}
+/*Add padding to rows with secondary class of section.*/
+.row.section {
+    padding: 5%;
+}
+/*Put a nice frame with smoothened corners and a soft shadow around all images on the page. */
+img {
+    border: 4px solid white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(17,17,17,0.2);
+} 
+/*color the second (Code projects) section's background light gray for contrast. */
+#code {
+    background-color: whitesmoke;
+}
+/*align code project cards.*/
+
+/*Add color to Nav bar.*/
+.navbar {
+    box-shadow: 0px 4px 8px rgba(17,17,17,0.2);
+}
+/* Bold the navbar's brand and put spacing on its left so it shifts right.*/
+.navbar-brand {
+    font-weight: bold;
+    padding-left: 12%;
+}
+
+ /* Make the youtube video responsive */
+ .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #contact {
+      background-image: radial-gradient(#404040, #202020);
+  }
