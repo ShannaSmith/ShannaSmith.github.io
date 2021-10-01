@@ -15,6 +15,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--My personal style sheet.-->
     <link rel="stylesheet" href="index.css" type="text/css">
+    <!--My Favicon Link-->
+    <link rel="icon" 
+    type="image/png"
+    href="https://shannasmith.github.io/portfolio/media/favicon.png">
       </head>
   <body>
       <!--Make the navbar "sticky (sticks to top of screen)"-->
@@ -40,12 +44,12 @@
                     <!-- The class="nav-link" part just makes them display nicely. -->
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="video.html">About</a>
-                </li>
-           
+                
             <li class="nav-item">
                 <a class="nav-link" href="#code">Coding Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
             </li>
         </ul>
     </div>
@@ -65,51 +69,63 @@
 
                     <h2>Coding Projects</h2>
 
-                    <p>
-                        Here are some coding projects I've completed during the first phase 
+                    <p class="p2">
+                        Here are some coding projects I've completed during the first phase ,Front-end development with JavaScript),
                         of the MIT MERN Fullstack development bootcamp.
                     </p>
-        
+        </div>
+        </div>
                     <!-- Project gallery, I created a card for each coding project.-->
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="container">
+                    <div class="row row-cols-3">
                         <div class="col">
+                        <div class="card h-100">  
                     <div class="card" style="width: 18rem;">
                         <video src="media/eye_movement.mp4" controls autoplay loop alt="Eye movement video"></video>
                          <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Eye Animation</h5>
+                          <p class="card-text">Using mouse events to have some fun. This program was created to demonstrate how mouse events bind DOM elements to events.</p>
+                                                   
+                          <a href="http://shannasmith.github.io/Eye-Exercise%3E" class="btn btn-primary"> My GitHub</a>
+                       
                         </div>
-                      
                       </div>
                       </div>
+                    </div>                  
                       <div class="col">
+                        <div class="card h-100">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="media/pacmen-factory.gif" alt="Moving pacemen">
                           <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">PacMan Factory</h5>
+                            <p class="card-text">This program allows you to produce pacmen on demand. Once you click start the real fun begins. They move around randomly at various speeds, while never leaving your sight. Decide how many pacmen you will make and watch them go!</p>
+                            
+                            <a href="https://shannasmith.github.io/PacMen" class="btn btn-primary"> My GitHub </a>
                           </div>
-                </div>
+                         </div>
+                         </div>
                          </div>
                          <div class="col">
+                           <div class="card h-100">
                             <div class="card" style="width: 18rem;">
                                 <video src="media/maps.mp4" controls autoplay loop alt="animated map of MIT bus route"></video>
                               <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Real Time Bus Tracking</h5>
+                                <p class="card-text">A map marker moves along the bus route between MIT and Harvard. This is accomplished by using the MBTA API and the Mapbox library to determine stops between Harvard & MIT and adding an animated marker to highlight the bus routes.</p>
+                                                            
+                                <a href="https://shannasmith.github.io/Bus-tracking" class="btn btn-primary">My GitHub</a>
                               </div>
-                    </div>
-                             </div >
-                                    
+                           </div>
+                          </div>
+                          </div >
+                         </div>
+                         </div>           
 	<script src="index.js"></script>
 
-    </div>
-    </div>
-    </div>
-    </div>
+   </div>
+  </div>
+  </div>
+ </div>
     
   </body>
 </html>
