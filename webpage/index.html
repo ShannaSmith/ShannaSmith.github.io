@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--Info for the browser to decode my HTML code.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--My pages' title.-->
+    <title>Shanna Smith Portfolio</title>
+    
+    <!--Bootstrap files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--My personal style sheet.-->
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <!--My Favicon Link-->
+    <link rel="icon" 
+    Type="image/png"
+    href="https://shannasmith.github.io/portfolio/media/favicon.png">
+   
+      </head>
+  <body>
+      <!--Make the navbar "sticky (sticks to top of screen)"-->
+<div class="sticky-top">
+         <!-- Navbar -->
+    <!-- This builds a blank navbar with some styling, such as a light color. -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
+        <!-- This is the "brand" that goes all the way to the left. -->
+        <a class="navbar-brand d-flex w-50 mr-auto" href="#home">Shanna Smith's Portfolio</a>
+
+        <!-- This button replaces the links list when in mobile. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="nav">
+
+            <!-- Create an unordered list to hold my links and format it automatically. -->
+            <ul class="nav navbar-nav mr-auto justify-content-end">
+
+                <!--All the links in the navbar will be listed below as list items using the <li> tag. -->
+                <li class="nav-item">
+
+                    <!-- To make them into links, I use the <a href="link"> tag. -->
+                    <!-- The class="nav-link" part makes them display nicely. -->
+                   <a class="nav-link" href="#top_page">Home</a>
+                    </li>
+                                   
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Coding Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#player">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my_story">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+          
+          <!--Page container-->
+     <div class= "container-fluid">
+
+      <!--Main column where content goes-->
+      <!--Welcome-->
+           <a id="top_page"><div class="jumbotron"></a>
+               <div class="media">
+                <img src="media/img-8699.jpg"class="img-fluid portrait" alt="Responsive image of person">
+                <div class="media-body">
+            <h1 class="display-4">Welcome</h1>
+           
+            <p class="lead">Electrical engineer turned MERN fullstack developer. </p>
+            <hr class="my-4">
+            <p>Currently accepting requests to fill front-end development needs utilizing JavaScript, HTML, CSS, JQuery, and Bootstrap.</p>
+            <p class="lead">
+              <!--Contact me, Link to email-->
+              <a class="btn btn-primary btn-lg" href="mailto:shannabsp@gmail.com?subject=Message from your website" Email class="btn btn-outline-dark"" role="button">contact me</a>
+            </p>
+          </div>   
+           </div>
+           </div>
+           <!--GitHub Username with logo-->
+           <div class="media">
+           <img src="media/GitHub-Mark-64px.png"class="img-fluid" alt="GitHub logo"> 
+              <div class="media-body">
+           <h6 class="display-4">ShannaSmith</h6>
+              </div>
+              </div>
+              </div>
+                       
+                 <!--Header section-->
+      <div class="row section" id="home"> 
+              <div class="header">
+                 <h1>MERN Fullstack Developer</h1> 
+                 <h4>Serving all your development needs.</h4>
+              </div>
+                    </div>
+                    <!--MERN stack-->
+                    <div id="mern">
+                      <p class="p1">My Stack</p>
+                        <img src="media/mongodb.png" class="img-fluid logo" alt="Responsive image of MONGO DB logo">
+                        <img src="media/expressjs.png" class="img-fluid logo" alt="Responsive image of express logo">
+                        <img src="media/react.png" class="img-fluid logo" alt="Responsive image of react logo">
+                        <img src="media/nodejs.png"class="img-fluid logo" alt="Responsive image of nodejs logo">
+                       </div>
+      <hr>
+      <!--My Story-->
+      <a id="my_story"><div class="mx-auto" style="max-width: 740px;"></a>
+        <div class="row g-0">
+          <div class="mx-auto">
+         <img src="media/tech.png" class="img-fluid rounded-start" alt="Computer screen with code">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">My Story</h5>
+            <p class="card-text-left" class="p3" >Hi there, I am a consulting engineer, coach, mentor, and tutor. My passion is getting girls interest in STEM, for the last 12 years I have coached award winning robotics and science olympiad teams. I also mentor and tutor teens to ensure they are ready for the rigors of college. My Bacholars of Science is from the University of Alabama. During the pandemic, I completed the MIT Digital Marketing Analytics Executive program. While completing this course I became interested in SEO and A/B testing. Helping a start-up with their SEO created my desire to become a full-stack developer. I am now working as a front-end developer consultant for that same start-up. I am excited about my new journey and look forward to helping you with your development needs. </p>
+              <p class="card-text-left"><small class="text-muted">Click one of the links below to collaborate.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--Contact section-->
+        <div class="contact_links">
+            <a href="https://www.linkedin.com/in/shanna-smith-95b45814b/" class="btn btn-outline-dark">linkedin</a>
+            <a href="mailto:shannabsp@gmail.com?subject=Message from your website" Email class="btn btn-outline-dark">email</a>
+        </div>
+        <hr>
+        <!-- Current skills -->
+        <div id="fe"> 
+            <p class="p1">Front-end Skills</p>
+            <img src="media/hcjs.png"class="img-fluid front" alt= "Responsive image of html javascript and css logo">
+            <img src="media/bootstrap.png" class="img-fluid front" id="bs" alt="Responsive image of bootstrap logo">
+            <img src="media/jquery.png" class="img-fluid front" id="jq" alt="Responsive image of jquery logo">
+          </div> 
+        <hr>
+
+        
+              
+                         <!--Video Section-->
+                       
+                         <a id="player"><iframe  src="https://youtu.be/MqexQN6UvFw?enablejsapi=1&origin=https://ShannaSmith.github.io" frameborder="0" title="YouTube video player"  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>    
+        
+           <hr>
+        </div>
+          </div>
+         </div>                 
+                
+     </div>                                              
+     </div>  
+     <!--Footer-->
+     <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Shanna Smith</h3>
+                        <p>Creating tangible results for your development needs.</p>
+                    </div>
+                   
+                </div>
+                <p class="copyright">Shanna Smith © 2021</p>
+            </div>
+        </footer>
+    </div>   
+    <!--JavaScript Links-->         
+	  <script src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+      
+    </body>
+</html>

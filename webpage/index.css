@@ -1,0 +1,272 @@
+/*Make the navbar slide to their targets, instead of jumping. */
+html {
+    scroll-behavior: smooth;
+}
+
+/*color the background and add some space to the sides of the main column. */
+.container-fluid {
+   background-color:#F4D160;
+   padding-left: 10% !important;
+   padding-right: 10% !important;
+}
+/*Add padding and background image to home section.*/
+#home {
+    padding: 20%;
+    background-image: url("media/codescreen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    }
+.header {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-shadow: 0 2px 8px rgba(17,17,17,0.6);
+}
+/*add style to H1 text*/
+h1{
+  font-family: Georgia, serif;
+}
+/*add style to H2 text*/
+h2{
+  font-family: Georgia, serif;
+}
+#code_h2{
+  font-family: Georgia, serif;
+  color: white;
+}
+/* add style to H5 text*/
+h5{
+  font-family: Georgia, serif;
+}
+/*add style to H4 text*/
+h4{
+  font-family: Georgia, serif;
+}
+/*add style to card text*/
+.class-text{
+  font-family: Verdana, serif;
+}
+/*Color the main column background white. */
+.col {
+   background-color: white;
+   }
+.col.main{
+   background-color: white;
+   box-shadow: 0 0 50px rgba(17,17,17,0.5);
+}
+
+/*Add padding to rows with secondary class of section.*/
+.row.section {
+    padding: 5%;
+}
+/*Put a nice frame with smoothened corners and a soft shadow around all images on the page. */
+img {
+    border: 4px solid #F4D160;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(17,17,17,0.2);
+} 
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+    
+  .row {
+    display: flex;
+  }
+/*color the second (Code projects) section's background light gray for contrast. */
+#code {
+    background-color: #28527A;
+    text-align: center;
+}
+/*align code project cards.*/
+
+/*Add color to Nav bar.*/
+.navbar {
+    box-shadow: 0px 4px 8px rgba(17,17,17,0.2);
+}
+/* Bold the navbar's brand and put spacing on its left so it shifts right.*/
+.navbar-brand {
+    font-weight: bold;
+    padding-left: 12%;
+    color: whitesmoke;
+}
+
+ /* Make the youtube video responsive */
+ .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+       }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+     }
+    /*customize fonts in paragraphs*/
+    .p1{
+      font-family: Georgia, serif;
+      color: rgba(0,0,0,0.54);
+      font-size: large;
+    }
+    .p2{
+      font-family: Georgia, serif;
+      font-size: large;
+      }
+    .p3{
+      font-family: Verdana, sans-serif;
+      font-size:medium;
+    }
+    .code_p5{
+      font-family: Verdana, sans-serif;
+      color: white;
+    }
+
+  
+  /* Customize hr */
+  hr {
+    position: relative;
+    top: 20px; 
+    border: none;
+    height: 5px;
+    background: silver;
+    margin-bottom: 50px;
+}
+/*size imported stack logos*/
+  .logo{
+    width: 15%;
+    border: none; 
+          }
+     /* center title*/
+  #mern {
+   text-align: center;
+ }
+   /*Style portrait*/
+.portrait {
+  border-radius: 50%;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+/* size front-end logos*/
+.front{
+  width: 25%;
+  border: none;
+}
+ /*center title*/
+#fe{
+  text-align: center;
+}
+  #jq{
+    width: 9%;
+    border: none;
+    background: transparent;
+  }
+  /*bootstrap*/
+  #bs{
+    width: 8%;
+  background:transparent;
+  }
+ .contact_links {
+   margin-left: 350px;
+ }   
+ 
+ /*Footer*/
+ .footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+

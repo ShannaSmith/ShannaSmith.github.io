@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--Info for the browser to decode my HTML code.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--My pages' title.-->
+    <title>Shanna Smith Portfolio</title>
+    
+    <!--Bootstrap files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--My personal style sheet.-->
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <!--My Favicon Link-->
+    <link rel="icon" 
+    type="image/png"
+    href="https://shannasmith.github.io/portfolio/media/favicon.png">
+      </head>
+  <body>
+      <!--Make the navbar "sticky (sticks to top of screen)"-->
+<div class="sticky-top">
+         <!-- Navbar -->
+    <!-- This builds a blank navbar with some styling, such as a light color. -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
+        <!-- This is the "brand" that goes all the way to the left. -->
+        <a class="navbar-brand d-flex w-50 mr-auto" href="#home">Shanna Smith's Portfolio</a>
+
+        <!-- This button replaces the links list when in mobile. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="nav">
+            <!-- Create an unordered list to hold our links and format it automatically. -->
+            <ul class="nav navbar-nav mr-auto justify-content-end">
+                <!-- All the links in the navbar will be listed below as list items using the <li> tag. -->
+                <li class="nav-item">
+                    <!-- To make them into links, we use the <a href="link"> tag. -->
+                    <!-- The class="nav-link" part just makes them display nicely. -->
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#code">Coding Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.index.html/"target="_player">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.index.html/" target="_my_story">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+                   
+          <!--Page container-->
+     <div class= "container-fluid">
+
+      <!--Main column where content goes-->
+      <div class="col main">
+          
+                                                     
+                       <!--coding projects section-->
+            <div class="row section" id="code">
+                <div class="column-fluid">
+
+                    <h2 id="code_h2">Coding Projects</h2>
+
+                    <p class="code_p5">
+                        Here are some coding projects I've completed during the first phase ,Front-end development with JavaScript),
+                        of the MIT MERN Fullstack development bootcamp.
+                    </p>
+                 </div>
+                    </div>       
+                    <!-- Project gallery, I created a card for each coding project.-->
+                    <div class="container">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                        <div class="card h-100">  
+                    <div class="card" style="width: 18rem;">
+                        <video src="media/eye_movement.mp4" controls autoplay loop alt="Eye movement video"></video>
+                         <div class="card-body">
+                          <h5 class="card-title">Eye Animation</h5>
+                          <p class="card-text">Using mouse events to have some fun. This program was created to demonstrate how mouse events bind DOM elements to events.</p>
+                                             
+                          <a href="http://shannasmith.github.io/Eye-Exercise%3E" class="btn btn-primary"class="gh"> My GitHub</a>
+                       </div>
+                        </div>
+                      </div>
+                      </div>
+                                    
+                      <div class="col">
+                        <div class="card h-100">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="media/pacmen-factory.gif" alt="Moving pacemen">
+                          <div class="card-body">
+                            <h5 class="card-title">PacMan Factory</h5>
+                            <p class="card-text">This program allows you to produce pacmen on demand. Once you click start the real fun begins. They move around randomly at various speeds, while never leaving your sight. Decide how many pacmen you will make and watch them go!</p>
+                            
+                            <a href="https://shannasmith.github.io/PacMen" class="btn btn-primary" class="gh"> My GitHub </a>
+                          </div>
+                         </div>
+                         </div>
+                         </div>
+                         <div class="col">
+                           <div class="card h-100">
+                            <div class="card" style="width: 22rem;">
+                                <video src="media/maps.mp4" controls autoplay loop alt="animated map of MIT bus route"></video>
+                              <div class="card-body">
+                                <h5 class="card-title">Real Time Bus Tracking</h5>
+                                <p class="card-text">A map marker moves along the bus route between MIT and Harvard. This is accomplished by using the MBTA API and the Mapbox library to determine stops between Harvard & MIT and adding an animated marker to highlight the bus routes.</p>
+                                                          
+                                <a href="https://shannasmith.github.io/Bus-tracking" class="btn btn-primary" class="gh">My GitHub</a>
+                              </div>
+                           </div>
+                          </div>
+                          </div>
+                         </div>
+                         </div> 
+                         </div> 
+                          <!--Footer-->
+     <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Services</h3>
+                      <ul>
+                          <li><a href="#">Web design</a></li>
+                          <li><a href="#">Development</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Shanna Smith</h3>
+                      <p>Creating tangible results for your development needs.</p>
+                  </div>
+                 
+              </div>
+              <p class="copyright">Shanna Smith © 2021</p>
+          </div>
+      </footer>
+  </div>            
+	<script src="index.js"></script>
+
+   
+  
+  
+ 
+    
+  </body>
+</html>
