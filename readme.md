@@ -1,12 +1,9 @@
-# Portfolio
-## About Me Webpage
-## Description
-webpage created to chronical my journey through the MIT MERN full stack developer bootcamp.
-
-## How To Access
-Type or copy/paste ShannaSmith.github.io into your browser.  
-Use the linkedIn and Email links lpcated on my page to contact me reagrding collaboration opportunities.
-
+# :wave: Hello World!
+##  :school_satchel: Full Stack developer student
+## :heavy_check_mark: Completed Front-end development using JavaScript
+## :thought_balloon: currently learning Front-end development using React
+##  :eyes: looking to collaborate on beginner front-end development projects
+##  :email: shannabsp@gmail.com to collaborate.
 
 
 
