@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+
+!DOCTYPE html>
 <!--Info for the browser to decode my HTML code.-->
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--My pages' title.-->
     <title>Shanna Smith Portfolio</title>
     
@@ -15,6 +17,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--My personal style sheet.-->
     <link rel="stylesheet" href="index.css" type="text/css">
+    <!--My Favicon Link-->
+    <link rel="icon" 
+    Type="image/png"
+    href="https://shannasmith.github.io/portfolio/media/favicon.png">
+   
       </head>
   <body>
       <!--Make the navbar "sticky (sticks to top of screen)"-->
@@ -32,55 +39,38 @@
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="nav">
-            <!-- Create an unordered list to hold our links and format it automatically. -->
+
+            <!-- Create an unordered list to hold my links and format it automatically. -->
             <ul class="nav navbar-nav mr-auto justify-content-end">
-                <!-- All the links in the navbar will be listed below as list items using the <li> tag. -->
+
+                <!--All the links in the navbar will be listed below as list items using the <li> tag. -->
                 <li class="nav-item">
-                    <!-- To make them into links, we use the <a href="link"> tag. -->
-                    <!-- The class="nav-link" part just makes them display nicely. -->
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
+
+                    <!-- To make them into links, I use the <a href="link"> tag. -->
+                    <!-- The class="nav-link" part makes them display nicely. -->
+                   <a class="nav-link" href="#home">Home</a>
+                    </li>
+                                   
                 <li class="nav-item">
-                <a class="nav-link" href="video.html">About</a>
+                    <a class="nav-link" href="index2.html">Coding Projects</a>
                 </li>
-           
-            <li class="nav-item">
-                <a class="nav-link" href="index2.html">Coding Projects</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#player">Introduction</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
-                   
+          
           <!--Page container-->
      <div class= "container-fluid">
 
-      <!--Main column where content goes-->
-      <div class="col main">
-      <!--Video Section I embed my video--> 
-      
-      <div class="embed-responsive embed-responsive-16by9"> 
-       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe> 
-      </div> -->
-      
-       <div class="embed-responsive embed-responsive-16by9"> -->
-       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/137857207" allowfullscreen></iframe> 
-          </div> -->
-      
-      
-     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/kfOFtMCjCvg?controls=0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->                                              
-       <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
-<div class="iframe-container">
-    <div id="player"></div>
-  </div>
-      
-                           
-	<script src="index.js"></script>
 
-    </div>
-    </div>
-    </div>
-    </div>
-    
-  </body>
-</html>
+<!-- <hr style="border-top: dotted 15px;"> -->
+           <!-- Video Section
+           <div id="player">
+            <div class="embed-responsive embed-responsive-16by9" id="player">
+             <iframe width="640" height="390" src=https://youtu.be/MqexQN6UvFw?enablejsapi=1&origin=https://ShannaSmith.github.io" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
