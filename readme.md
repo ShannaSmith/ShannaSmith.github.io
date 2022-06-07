@@ -1,7 +1,7 @@
 # :wave: Hello World!
-##  :school_satchel: Adode Digital Academy Scholar
+##  :school_satchel: Adode Software Engineer Intern
 ## 	:mortar_board: Completed  MITxPro MERN Full Stack Certification
-## :thought_balloon: currently learning Django stack 
+## 	:mortar_board: Completed  General Assembly Software Engineering Immersive
 ##  :eyes: looking to collaborate on junior full stack development projects
 ##  :email: shannabsp@gmail.com to collaborate.
 
